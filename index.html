@@ -3,9 +3,214 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Welcome World | Corporate Portfolio</title>
+    <style>
+        :root {
+            --primary: #1e3a8a;
+            --secondary: #0d9488;
+            --dark: #1f2937;
+            --light: #f9fafb;
+            --gray: #6b7280;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            color: var(--dark);
+            background-color: var(--light);
+            line-height: 1.5;
+        }
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        main {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: var(--primary);
+            border-bottom: 2px solid var(--secondary);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        h3 {
+            color: var(--secondary);
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+        ul {
+            list-style-type: square;
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        li {
+            margin-bottom: 0.25rem;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+        .card {
+            background: var(--light);
+            padding: 1.5rem;
+            border-left: 4px solid var(--primary);
+            border-radius: 4px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+        th, td {
+            text-align: left;
+            padding: 0.75rem;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        th {
+            background-color: var(--primary);
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: var(--light);
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 <body>
-    
+
+    <header>
+        <h1>Welcome World</h1>
+        <p>Global Mobility & Cross-Cultural Integration Portfolio</p>
+    </header>
+
+    <main>
+        <!-- 1. Executive Summary -->
+        <section id="summary">
+            <h2>Executive Summary</h2>
+            <p><strong>Welcome World</strong> is a premier, global-facing organization dedicated to bridging geographical boundaries and cultivating cross-cultural connectivity. We specialize in delivering end-to-end consulting, migration facilitation, and global experiences that make transitioning across the world seamless and efficient.</p>
+            <br>
+            <ul>
+                <li><strong>Core Focus:</strong> Global migration, cultural integration, and international corporate expansion.</li>
+                <li><strong>Our Vision:</strong> A world without borders where potential meets opportunity seamlessly.</li>
+                <li><strong>Key Promise:</strong> High-touch, transparent, and legally compliant international transitions.</li>
+            </ul>
+        </section>
+
+        <!-- 2. Core Capabilities -->
+        <section id="services">
+            <h2>Core Capabilities & Services</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Global Mobility & Migration</h3>
+                    <ul>
+                        <li>Visa procurement for professionals and families.</li>
+                        <li>End-to-end corporate relocation logistics.</li>
+                        <li>Strict compliance checks with local laws.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Cross-Cultural Consulting</h3>
+                    <ul>
+                        <li>Cultural orientation workshops for corporate teams.</li>
+                        <li>Specialized language assistance programs.</li>
+                        <li>Localized community integration support.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Case Studies -->
+        <section id="cases">
+            <h2>Project Highlights & Case Studies</h2>
+            
+            <h3>Cross-Border Corporate Relocation</h3>
+            <ul>
+                <li><strong>Client:</strong> Multinational FinTech Firm (500+ employees)</li>
+                <li><strong>Execution:</strong> Managed legal compliance and visa processing under tight constraints.</li>
+                <li><strong>Outcome:</strong> Project completed 15 days ahead of schedule with zero delays.</li>
+            </ul>
+
+            <h3>Family Immigration Initiative</h3>
+            <ul>
+                <li><strong>Client:</strong> Private Clientele (Australia & New Zealand pathways)</li>
+                <li><strong>Execution:</strong> Bypassed standard administrative bottlenecks using local networks.</li>
+                <li><strong>Outcome:</strong> Maintained an unblemished 98% approval rate across applications.</li>
+            </ul>
+        </section>
+
+        <!-- 4. Strategic Assets -->
+        <section id="assets">
+            <h2>Strategic Assets & Infrastructure</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Asset Category</th>
+                        <th>Description</th>
+                        <th>Strategic Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Global Network</strong></td>
+                        <td>Offices and legal affiliates in 12+ countries.</td>
+                        <td>Guarantees hyper-localized compliance expertise.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Proprietary Portal</strong></td>
+                        <td>Secure digital tracking platform for clients.</td>
+                        <td>Real-time visibility into application stages.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Strategic Alliances</strong></td>
+                        <td>Direct tie-ups with global housing providers.</td>
+                        <td>Lowers total relocation costs for families.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- 5. Governance -->
+        <section id="governance">
+            <h2>Corporate Governance & Values</h2>
+            <ul>
+                <li><strong>Integrity First:</strong> Transparent pricing structures with zero hidden operational costs.</li>
+                <li><strong>Data Security:</strong> Bank-grade encryption protocols for processing personal data.</li>
+                <li><strong>People Centricity:</strong> Customized human-led support channels over automated loops.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Welcome World. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
